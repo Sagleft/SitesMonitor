@@ -97,11 +97,12 @@ namespace SitesMonitor
 			Pen border_pen = new Pen(frame_color);
 			gr.FillRectangle(fill_brush, 0, 0, container_width, container_height);
 			updateForm();
-			Font draw_font = new Font("Times New Roman", 20, FontStyle.Regular, GraphicsUnit.Pixel);
+			float font_size = 5.0f * rows_count / 3.5f + 10.0f;
+			Font draw_font = new Font("Times New Roman", font_size, FontStyle.Regular, GraphicsUnit.Pixel);
 			
 			int block_index = 0;
-			for(int x=0; x < rows_count; x++) {
-				for(int y=0; y < rows_count; y++) {
+			for(int y=0; y < rows_count; y++) {
+				for(int x=0; x < rows_count; x++) {
 					if(block_index < sites_container.sites.Length) {
 						Rectangle rect = new Rectangle(x * rows_width, y * rows_width, rows_width, rows_width);
 						Uri site_uri = new Uri(sites_container.sites[block_index].url);

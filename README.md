@@ -13,6 +13,13 @@
 * Вам потребуется [SharpDevelop](http://www.icsharpcode.net/OpenSource/SD/Default.aspx) 4.4.2
 * Необходимо подключить библиотеку [NewtonJson](https://www.newtonsoft.com/json) для .NET 4.0+
 
+## TODO
+
+* параллельную проверку через потоки;
+* настройку цветов;
+* редактор списка сайтов;
+* контекстное меню;
+
 ### Разработчику на бутерброды
 
 ![qr code](http://sagleft.ru/donate_mfc.gif)
