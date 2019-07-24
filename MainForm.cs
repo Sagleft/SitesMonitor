@@ -79,7 +79,7 @@ namespace SitesMonitor
 			Bitmap bmp = new Bitmap(pictureBox.Image);
 			int container_width  = pictureBox.Width;
 			int container_height = pictureBox.Height;
-			int rows_count = (int) Math.Round(Math.Sqrt((double)sites_container.sites.Length));
+			int rows_count = (int) Math.Ceiling(Math.Sqrt((double)sites_container.sites.Length));
 			//int columns_count = 
 			int rows_width = (int) Math.Floor((double)container_width / (double)rows_count);
 			Color online_color = Color.FromArgb(255,118,255,3);
