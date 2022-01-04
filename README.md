@@ -20,10 +20,9 @@
 * редактор списка сайтов;
 * контекстное меню;
 
-### Разработчику на бутерброды
 
-![qr code](http://sagleft.ru/donate_mfc.gif)
+---
 
-Mv7vb6eWskJd2xtfB1U97CfKEZxML65Me4
+![image](https://github.com/Sagleft/Sagleft/raw/master/image.png)
 
-(MFCoin)
+### :globe_with_meridians: [Telegram канал](https://t.me/+VIvd8j6xvm9iMzhi)
